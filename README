@@ -1,0 +1,8 @@
+To start the project navigate to this folder using terminal and run ./project.sh
+And you can access the API using http://localhost:5000/order (GET Method)
+
+Mandatory Query parameters to be passed are :
+1) key_id
+2) key_secret
+
+The above 2 are case sensitive variables. 
