@@ -1,0 +1,26 @@
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+</head>
+<body>
+    <form action="charge" method="POST">
+        <script
+            src="https://checkout.razorpay.com/v1/checkout.js"
+            data-order_id={{order_id}}
+            data-buttontext="Pay with Razorpay"
+            data-key={{key}}
+            data-amount={{amount}}
+            data-name="Shreyas Sridhar payment"
+            data-description="PG integration"
+            data-image="vk.jpg"
+            data-netbanking="true"
+            data-description="Demo Integration"
+            data-prefill.name="Shreyas Sridhar"
+            data-prefill.email="shreyassridhar@docprime.com"
+            data-prefill.contact="8888888888"
+            data-notes.shopping_order_id="21">
+        </script>
+        <input type="hidden" name="order_id" value={{order_id}}>
+    </form>
+</body>
+</html>
